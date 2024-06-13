@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594261082C16E6D100FB2122 /* FynoTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261072C16E6D100FB2122 /* FynoTravelApp.swift */; };
+		5942610A2C16E6D100FB2122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261092C16E6D100FB2122 /* ContentView.swift */; };
+		5942610C2C16E6D300FB2122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5942610B2C16E6D300FB2122 /* Assets.xcassets */; };
+		5942610F2C16E6D300FB2122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5942610E2C16E6D300FB2122 /* Preview Assets.xcassets */; };
+		594261182C16E8C600FB2122 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261172C16E8C600FB2122 /* MapView.swift */; };
+		5942611B2C1712B800FB2122 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942611A2C1712B800FB2122 /* Country.swift */; };
+		5942611D2C17187500FB2122 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942611C2C17187500FB2122 /* PinView.swift */; };
+		594261232C172C2200FB2122 /* PinViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261222C172C2200FB2122 /* PinViewViewModel.swift */; };
+		594261252C172CA500FB2122 /* PinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261242C172CA500FB2122 /* PinModel.swift */; };
+		594261282C18593E00FB2122 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261272C18593E00FB2122 /* MainView.swift */; };
+		5942612B2C185A5C00FB2122 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942612A2C185A5C00FB2122 /* MainViewViewModel.swift */; };
+		5942612E2C186FAD00FB2122 /* View+RoundedCorner+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942612D2C186FAD00FB2122 /* View+RoundedCorner+Extension.swift */; };
+		594261302C18701300FB2122 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942612F2C18701300FB2122 /* View+Extension.swift */; };
+		594261322C19C7E900FB2122 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261312C19C7E900FB2122 /* CountryCell.swift */; };
+		594261352C19C85D00FB2122 /* CountryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261342C19C85D00FB2122 /* CountryCellViewModel.swift */; };
+		594261392C19D00900FB2122 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594261382C19D00900FB2122 /* CountryView.swift */; };
+		59A303C62C1A569E0019C996 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A303C52C1A569E0019C996 /* PrimaryButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		594261042C16E6D100FB2122 /* FynoTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FynoTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594261072C16E6D100FB2122 /* FynoTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FynoTravelApp.swift; sourceTree = "<group>"; };
+		594261092C16E6D100FB2122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5942610B2C16E6D300FB2122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5942610E2C16E6D300FB2122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		594261172C16E8C600FB2122 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5942611A2C1712B800FB2122 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5942611C2C17187500FB2122 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		594261222C172C2200FB2122 /* PinViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewViewModel.swift; sourceTree = "<group>"; };
+		594261242C172CA500FB2122 /* PinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModel.swift; sourceTree = "<group>"; };
+		594261272C18593E00FB2122 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5942612A2C185A5C00FB2122 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		5942612D2C186FAD00FB2122 /* View+RoundedCorner+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCorner+Extension.swift"; sourceTree = "<group>"; };
+		5942612F2C18701300FB2122 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		594261312C19C7E900FB2122 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		594261342C19C85D00FB2122 /* CountryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellViewModel.swift; sourceTree = "<group>"; };
+		594261382C19D00900FB2122 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		59A303C52C1A569E0019C996 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594261012C16E6D100FB2122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594260FB2C16E6D100FB2122 = {
+			isa = PBXGroup;
+			children = (
+				594261062C16E6D100FB2122 /* FynoTravel */,
+				594261052C16E6D100FB2122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594261052C16E6D100FB2122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594261042C16E6D100FB2122 /* FynoTravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594261062C16E6D100FB2122 /* FynoTravel */ = {
+			isa = PBXGroup;
+			children = (
+				594261072C16E6D100FB2122 /* FynoTravelApp.swift */,
+				594261092C16E6D100FB2122 /* ContentView.swift */,
+				5942610B2C16E6D300FB2122 /* Assets.xcassets */,
+				594261262C1858A400FB2122 /* Scenes */,
+				594261152C16E87200FB2122 /* Views */,
+				5942612C2C186F9900FB2122 /* Extensions */,
+				594261192C17129600FB2122 /* Enums */,
+				59A303C42C1A564C0019C996 /* ViewStyles */,
+				5942610D2C16E6D300FB2122 /* Preview Content */,
+			);
+			path = FynoTravel;
+			sourceTree = "<group>";
+		};
+		5942610D2C16E6D300FB2122 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5942610E2C16E6D300FB2122 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		594261152C16E87200FB2122 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5942611E2C1729D500FB2122 /* MapView */,
+				594261212C172C0900FB2122 /* PinView */,
+				594261362C19CFD900FB2122 /* CountryView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		594261192C17129600FB2122 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5942611A2C1712B800FB2122 /* Country.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5942611E2C1729D500FB2122 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				594261172C16E8C600FB2122 /* MapView.swift */,
+				594261242C172CA500FB2122 /* PinModel.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		594261212C172C0900FB2122 /* PinView */ = {
+			isa = PBXGroup;
+			children = (
+				5942611C2C17187500FB2122 /* PinView.swift */,
+				594261222C172C2200FB2122 /* PinViewViewModel.swift */,
+			);
+			path = PinView;
+			sourceTree = "<group>";
+		};
+		594261262C1858A400FB2122 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				594261292C185A2800FB2122 /* MainView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		594261292C185A2800FB2122 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				594261272C18593E00FB2122 /* MainView.swift */,
+				5942612A2C185A5C00FB2122 /* MainViewViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		5942612C2C186F9900FB2122 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5942612D2C186FAD00FB2122 /* View+RoundedCorner+Extension.swift */,
+				5942612F2C18701300FB2122 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		594261332C19C7F000FB2122 /* CountryCell */ = {
+			isa = PBXGroup;
+			children = (
+				594261312C19C7E900FB2122 /* CountryCell.swift */,
+				594261342C19C85D00FB2122 /* CountryCellViewModel.swift */,
+			);
+			path = CountryCell;
+			sourceTree = "<group>";
+		};
+		594261362C19CFD900FB2122 /* CountryView */ = {
+			isa = PBXGroup;
+			children = (
+				594261372C19CFEE00FB2122 /* CountryView */,
+				594261332C19C7F000FB2122 /* CountryCell */,
+			);
+			path = CountryView;
+			sourceTree = "<group>";
+		};
+		594261372C19CFEE00FB2122 /* CountryView */ = {
+			isa = PBXGroup;
+			children = (
+				594261382C19D00900FB2122 /* CountryView.swift */,
+			);
+			path = CountryView;
+			sourceTree = "<group>";
+		};
+		59A303C42C1A564C0019C996 /* ViewStyles */ = {
+			isa = PBXGroup;
+			children = (
+				59A303C52C1A569E0019C996 /* PrimaryButtonStyle.swift */,
+			);
+			path = ViewStyles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594261032C16E6D100FB2122 /* FynoTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594261122C16E6D300FB2122 /* Build configuration list for PBXNativeTarget "FynoTravel" */;
+			buildPhases = (
+				594261002C16E6D100FB2122 /* Sources */,
+				594261012C16E6D100FB2122 /* Frameworks */,
+				594261022C16E6D100FB2122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FynoTravel;
+			productName = FynoTravel;
+			productReference = 594261042C16E6D100FB2122 /* FynoTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594260FC2C16E6D100FB2122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					594261032C16E6D100FB2122 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 594260FF2C16E6D100FB2122 /* Build configuration list for PBXProject "FynoTravel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594260FB2C16E6D100FB2122;
+			productRefGroup = 594261052C16E6D100FB2122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594261032C16E6D100FB2122 /* FynoTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594261022C16E6D100FB2122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5942610F2C16E6D300FB2122 /* Preview Assets.xcassets in Resources */,
+				5942610C2C16E6D300FB2122 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594261002C16E6D100FB2122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594261282C18593E00FB2122 /* MainView.swift in Sources */,
+				5942612E2C186FAD00FB2122 /* View+RoundedCorner+Extension.swift in Sources */,
+				594261252C172CA500FB2122 /* PinModel.swift in Sources */,
+				594261322C19C7E900FB2122 /* CountryCell.swift in Sources */,
+				5942611D2C17187500FB2122 /* PinView.swift in Sources */,
+				594261392C19D00900FB2122 /* CountryView.swift in Sources */,
+				59A303C62C1A569E0019C996 /* PrimaryButtonStyle.swift in Sources */,
+				5942610A2C16E6D100FB2122 /* ContentView.swift in Sources */,
+				594261082C16E6D100FB2122 /* FynoTravelApp.swift in Sources */,
+				594261182C16E8C600FB2122 /* MapView.swift in Sources */,
+				594261302C18701300FB2122 /* View+Extension.swift in Sources */,
+				594261232C172C2200FB2122 /* PinViewViewModel.swift in Sources */,
+				5942612B2C185A5C00FB2122 /* MainViewViewModel.swift in Sources */,
+				594261352C19C85D00FB2122 /* CountryCellViewModel.swift in Sources */,
+				5942611B2C1712B800FB2122 /* Country.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		594261102C16E6D300FB2122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		594261112C16E6D300FB2122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594261132C16E6D300FB2122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FynoTravel/Preview Content\"";
+				DEVELOPMENT_TEAM = JK499BUDJD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fyno Travel";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shvets.anton.FynoTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594261142C16E6D300FB2122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FynoTravel/Preview Content\"";
+				DEVELOPMENT_TEAM = JK499BUDJD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fyno Travel";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shvets.anton.FynoTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594260FF2C16E6D100FB2122 /* Build configuration list for PBXProject "FynoTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594261102C16E6D300FB2122 /* Debug */,
+				594261112C16E6D300FB2122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594261122C16E6D300FB2122 /* Build configuration list for PBXNativeTarget "FynoTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594261132C16E6D300FB2122 /* Debug */,
+				594261142C16E6D300FB2122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594260FC2C16E6D100FB2122 /* Project object */;
+}
